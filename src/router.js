@@ -1,4 +1,4 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import {createRouter, createWebHashHistory, createWebHistory} from 'vue-router'
 import Home from './pages/Home.vue'
 import Features from './pages/Features.vue'
 import Pricing from './pages/Pricing.vue'
@@ -24,7 +24,7 @@ const router = createRouter({
       document.querySelector('html').style.scrollBehavior = ''
     }
   },
-  history: routerHistory,
+  history:  createWebHashHistory(),
   routes: [
     {
       path: '/',
