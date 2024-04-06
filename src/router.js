@@ -12,8 +12,9 @@ import SignUp from './pages/SignUp.vue'
 import ResetPassword from './pages/ResetPassword.vue'
 import PageNotFound from './pages/PageNotFound.vue'
 
+const routerHistory = createWebHistory()
+
 const router = createRouter({
-  history: createWebHistory(),
   scrollBehavior(to) {
     if (to.hash) {
       window.scroll({ top: 0 })
@@ -23,6 +24,7 @@ const router = createRouter({
       document.querySelector('html').style.scrollBehavior = ''
     }
   },
+  history: routerHistory,
   routes: [
     {
       path: '/',
