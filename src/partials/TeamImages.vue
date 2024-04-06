@@ -12,9 +12,9 @@
           <figure class="absolute h-auto" style="top: 8.5%;right: 0;width: 32.55%;max-width: 250px;" data-aos="fade-left" data-aos-delay="200">
             <img src="../images/team-mosaic-03.jpg" width="250" height="188" alt="Team mosaic 03" />
           </figure>
-          <figure class="absolute h-auto" style="bottom: 0;right: 20%;width: 25.52%;max-width: 196px;" data-aos="fade-up" data-aos-delay="300">
-            <img src="../images/team-mosaic-04.jpg" width="196" height="196" alt="Team mosaic 04" />
-          </figure>
+<!--          <figure class="absolute h-auto" style="bottom: 0;right: 20%;width: 25.52%;max-width: 196px;" data-aos="fade-up" data-aos-delay="300">-->
+<!--            <img src="../images/team-mosaic-04.jpg" width="196" height="196" alt="Team mosaic 04" />-->
+<!--          </figure>-->
         </div>
       </div>
     </div>

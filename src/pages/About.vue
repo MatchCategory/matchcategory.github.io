@@ -14,7 +14,7 @@
 
       <!-- Page sections -->
       <HeroAbout />
-      <TeamImages />
+<!--      <TeamImages />-->
 <!--      <Timeline />-->
 <!--      <Team />-->
       <AboutSingle />

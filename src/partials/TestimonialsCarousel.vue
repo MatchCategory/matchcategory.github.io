@@ -68,8 +68,10 @@
 <!--              <img class="absolute rounded-full" style="top: 34%;left: 76.5%;" src="../images/world-user-04.jpg" width="72" height="72" alt="User 04" data-aos="fade-up" data-aos-delay="700" />-->
 <!--              <img class="absolute rounded-full" style="top: 29.5%;left: 8.5%;" src="../images/world-user-05.jpg" width="48" height="48" alt="User 05" data-aos="fade-up" data-aos-delay="500" />-->
 <!--              <img class="absolute rounded-full" style="top: 56%;left: 19%;" src="../images/world-user-06.jpg" width="56" height="56" alt="User 06" data-aos="fade-up" data-aos-delay="200" />-->
-              <img class="absolute rounded-full" style="top: 65%;left: 30%;" src="../images/world-user-07.jpg" width="40" height="40" alt="User 07" data-aos="fade-up" data-aos-delay="600" />
-              <img class="absolute rounded-full" style="top: 32%;left: 43%;" src="../images/world-user-08.jpg" width="30" height="30" alt="User 08" data-aos="fade-up" data-aos-delay="300" />
+<!--              <img class="absolute rounded-full" style="top: 65%;left: 30%;" src="../images/world-user-07.jpg" width="40" height="40" alt="User 07" data-aos="fade-up" data-aos-delay="600" />-->
+              <PinIcon class="absolute rounded-full" style="top: 68%;left: 32%;" width="20" height="20"/>
+<!--              <img class="absolute rounded-full" style="top: 32%;left: 43%;" src="../images/world-user-08.jpg" width="30" height="30" alt="User 08" data-aos="fade-up" data-aos-delay="300" />-->
+              <PinIcon class="absolute rounded-full" style="top: 35%;left: 43%;" width="20" height="20"/>
             </div>
           </div>
 
@@ -129,9 +131,11 @@
 import Image01 from '../images/world-user-01.jpg'
 import Image02 from '../images/world-user-02.jpg'
 import Image03 from '../images/world-user-03.jpg'
+import PinIcon from '../components/PinIcon.vue'
 
 export default {
   name: 'TestimonialsCarousel',
+  components: {PinIcon},
   data: function () {
     return {
       active: 0,
