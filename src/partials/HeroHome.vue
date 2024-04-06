@@ -21,15 +21,19 @@
         <!-- Section header -->
         <div class="max-w-3xl mx-auto text-center pb-12 md:pb-16">
           <h1 class="h1 mb-4" data-aos="fade-up">O Match perfeito</h1>
-          <h1 class="h2 mb-4" data-aos="fade-up">Inovação + Excelência</h1>
           <p class="text-xl text-gray-400 mb-8" data-aos="fade-up" data-aos-delay="200">Inovação em cada linha de código e excelência em cada solução.</p>
           <div class="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center">
-            <div data-aos="fade-up" data-aos-delay="400">
-              <a class="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0" href="#0">Contactar</a>
-            </div>
-            <div data-aos="fade-up" data-aos-delay="600">
-              <a class="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Saber mais</a>
-            </div>            
+            <router-link to="/contact">
+              <div data-aos="fade-up" data-aos-delay="400">
+                <a class="btn text-white bg-purple-600 hover:bg-purple-700 w-full mb-4 sm:w-auto sm:mb-0">Contactar</a>
+              </div>
+            </router-link>
+
+            <router-link to="/about">
+              <div data-aos="fade-up" data-aos-delay="600">
+                <a class="btn text-white bg-gray-700 hover:bg-gray-800 w-full sm:w-auto sm:ml-4" href="#0">Saber mais</a>
+              </div>
+            </router-link>
           </div>
         </div>
 

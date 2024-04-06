@@ -58,10 +58,10 @@ const router = createRouter({
       path: '/help',
       component: Help
     },
-    {
-      path: '/signin',
-      component: SignIn
-    },
+    // {
+    //   path: '/signin',
+    //   component: SignIn
+    // },
     // {
     //   path: '/signup',
     //   component: SignUp
